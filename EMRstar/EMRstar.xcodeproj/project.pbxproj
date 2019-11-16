@@ -15,6 +15,8 @@
 		09B4FC9A2380241B0044EF0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B4FC982380241B0044EF0E /* LaunchScreen.storyboard */; };
 		09B4FCA52380241B0044EF0E /* EMRstarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B4FCA42380241B0044EF0E /* EMRstarTests.swift */; };
 		09B4FCB02380241B0044EF0E /* EMRstarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B4FCAF2380241B0044EF0E /* EMRstarUITests.swift */; };
+		09B4FCBE23805F210044EF0E /* SQLite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B4FCBD23805F210044EF0E /* SQLite.swift */; };
+		09B4FCC0238065D90044EF0E /* dataInput.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B4FCBF238065D90044EF0E /* dataInput.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		09B4FCAB2380241B0044EF0E /* EMRstarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMRstarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09B4FCAF2380241B0044EF0E /* EMRstarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMRstarUITests.swift; sourceTree = "<group>"; };
 		09B4FCB12380241B0044EF0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09B4FCBD23805F210044EF0E /* SQLite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLite.swift; sourceTree = "<group>"; };
+		09B4FCBF238065D90044EF0E /* dataInput.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = dataInput.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				09B4FC982380241B0044EF0E /* LaunchScreen.storyboard */,
 				09B4FC9B2380241B0044EF0E /* Info.plist */,
 				09B4FC952380241B0044EF0E /* Preview Content */,
+				09B4FCBD23805F210044EF0E /* SQLite.swift */,
 			);
 			path = EMRstar;
 			sourceTree = "<group>";
@@ -114,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				09B4FC962380241B0044EF0E /* Preview Assets.xcassets */,
+				09B4FCBF238065D90044EF0E /* dataInput.storyboard */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -241,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09B4FC9A2380241B0044EF0E /* LaunchScreen.storyboard in Resources */,
+				09B4FCC0238065D90044EF0E /* dataInput.storyboard in Resources */,
 				09B4FC972380241B0044EF0E /* Preview Assets.xcassets in Resources */,
 				09B4FC942380241B0044EF0E /* Assets.xcassets in Resources */,
 			);
@@ -268,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09B4FC8E238024190044EF0E /* AppDelegate.swift in Sources */,
+				09B4FCBE23805F210044EF0E /* SQLite.swift in Sources */,
 				09B4FC90238024190044EF0E /* SceneDelegate.swift in Sources */,
 				09B4FC92238024190044EF0E /* ContentView.swift in Sources */,
 			);
