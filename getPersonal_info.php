@@ -2,7 +2,7 @@
 
 // Create Connection
 // $con=mysqli_connect("localhost","database_user","password","database")
-$con=mysqli_connect("localhost","adamkitc_doctor","hackusu","adamkitc_patients");
+$con=mysqli_connect("localhost:3306","adamkitc_doctor","hackusu","adamkitc_patients");
 
 // Check connection
 if (mysqli_connect_errno())
